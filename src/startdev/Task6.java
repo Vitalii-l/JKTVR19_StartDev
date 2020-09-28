@@ -25,12 +25,9 @@ public class Task6 {
             jArr[i] = new int[jArrFirst];
             for(int j = 0; j < jArrFirstCycle; j++ ){
                 jArr[i][j] = rndItem.nextInt(101);
-                
-                System.out.println("jArrFirst = " + jArrFirst);
-//                System.out.println("jArrFirstCycle = " + jArrFirstCycle);
             }
             jArrFirst++;
-            //jArrFirstCycle++;
+            jArrFirstCycle++;
             System.out.print(i+1 + ") ");
             System.out.println(Arrays.toString(jArr[i]));
         }
